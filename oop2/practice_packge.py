@@ -4,7 +4,7 @@ from cusorder.order import Order
 #cerate object customer
 cus1 = Customer("Jame","Nonthaburi")
 
-#
+
 order1 = Order("15-06-2002","packed")
 
 #display info
