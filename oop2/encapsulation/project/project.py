@@ -3,7 +3,7 @@ class Project:
         self.name = name
         self.time = time
         self.location = location
-        
+        self.__budget = 50
 
     def show(self):
         print('===== Project =====')
@@ -12,7 +12,7 @@ class Project:
         print(f'location :{self.location}')
 
     def get_budget(self):
-        return self.__dudget
+        return self.__budget
 
     def update_budget(self,budget):
         self.__budget = budget
