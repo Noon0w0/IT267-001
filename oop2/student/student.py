@@ -2,8 +2,8 @@ class Student:
     def __init__(self,stuid,name,major) -> None:
         self._stuid = stuid
         self._name = name
-        self.major = major
+        self._major = major
 
-    def displayNameAndMajor(self):
-        print(f'Name: {self._name}')
-        print(f'Major: {self.major}')
+    def _displayNameAndMajor(self):
+        print("Name: ", self._name)
+        print("Major: ", self._major)

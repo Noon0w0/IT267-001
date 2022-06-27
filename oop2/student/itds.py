@@ -6,8 +6,8 @@ class ITDS(Student):
 
     def _displayNameAndMajor(self):
         print(f'ITDS Name: {self._name}')
-        super()._displayNameAndMajor()
+        super()._displayNameAndMajor
 
 #
-stu = ITDS("640108020003","Amorn","Information Technology")
+stu = ITDS("640108","Amorn","Information Technology")
 stu._displayNameAndMajor()
